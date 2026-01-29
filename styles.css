@@ -19,7 +19,7 @@ body {
     background-color: var(--dark-grey);
     color: var(--text-color);
     font-size: var(--font-size);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     place-content: center;
 }
