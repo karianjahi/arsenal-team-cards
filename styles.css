@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* --dark-grey: #0a0a23; */
+    --dark-grey: #02020d;
+    --text-color: white;
+    --font-size: 150%;
+    --medium-font-size: 70%;
+    --footer-font-size: 70%;
+}
+
+body {
+    background-color: var(--dark-grey);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    border: 2px solid red;
+    display: grid;
+    place-content: center;
+}
+
+#players {
+    font-size: var(--medium-font-size);
+}
+
+
+.label-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    padding: 2%;
+}
+
+.title {
+    text-align: center;
+    padding: 2%;
+}
+
+.team-stats {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    justify-content: center;
+    padding: 5%;
+    /* border: 2px solid green; */
+    width: 60rem;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--footer-font-size);
+}
+
+.player-card {
+    background-color: var(--text-color);
+    color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 10%;
+    border-radius: 20px;
+    width: 20rem;
+    text-align: center;
+    height: 5rem;
+    justify-content: center;
+
+}
+
+#player-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--dark-grey);
+    /* place-items: center; */
+    /* place-content: center; */
+    width: 100%;
+    gap: 2rem;
+
+}
+
+.player-card .player-name {
+    font-weight: bolder;
+}
+
+
+.player-card .player-position {
+    font-size: var(--medium-font-size);
+}
+
