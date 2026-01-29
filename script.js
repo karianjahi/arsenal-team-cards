@@ -1,4 +1,4 @@
-const footballTeam = Object();
+let footballTeam = Object();
 
 footballTeam.team = "Arsenal";
 footballTeam.year = 2026;
@@ -185,6 +185,17 @@ footballTeam.players.push(
 
 
 );
+
+function shuffledCopy(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+footballTeam.players = shuffledCopy(footballTeam.players);
 
 for (let player of footballTeam.players) {
     player.position = player.position.toLowerCase();
