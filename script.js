@@ -209,7 +209,6 @@ const selectPlayers = (option) => {
     let displayName;
     for (let player of footballTeam.players) {
         if (player.isCaptain) {
-
             displayName = `(Captain) ${player.name}`;
         } else {
             displayName = player.name
