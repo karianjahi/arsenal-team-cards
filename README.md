@@ -6,7 +6,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-blue?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square)
 
-An interactive **Football Team Cards** web application that displays **Arsenal FC’s squad** using clean HTML, modern CSS, and vanilla JavaScript.  
+An interactive **Football Team Cards** web application that displays **Arsenal FC’s squad** (**My favorite team**) using clean HTML, modern CSS, and vanilla JavaScript.  
 Users can filter players by position and view team statistics in a responsive, card-based interface.
 
 ---
