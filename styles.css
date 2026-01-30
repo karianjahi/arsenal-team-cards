@@ -58,7 +58,7 @@ footer {
     display: grid;
     place-items: center;
     font-size: var(--footer-font-size);
-    border: 2px solid blue;;
+    /* border: 2px solid blue;; */
 }
 
 .player-card {
