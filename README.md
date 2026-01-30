@@ -92,7 +92,7 @@ By combining **CSS Grid** and **Flexbox**, the layout adapts gracefully to diffe
 On larger screens, player cards are displayed in a **two-column grid**, allowing users to view more content at a glance while keeping the interface clean and balanced.
 
 ### 📱 Mobile View
-![Mobile UI](images/UI-mobile.png)
+![Mobile UI](images/UI-mobile1.png)
 
 On smaller screens, the layout automatically adjusts by:
 - Switching to a **single-column card layout**
