@@ -22,6 +22,7 @@ body {
     /* border: 2px solid red; */
     display: grid;
     place-content: center;
+    
 }
 
 #players {
@@ -54,10 +55,10 @@ body {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     font-size: var(--footer-font-size);
+    border: 2px solid blue;;
 }
 
 .player-card {
@@ -79,8 +80,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--dark-grey);
-    /* place-items: center; */
-    /* place-content: center; */
+    place-items: center;
     width: 100%;
     gap: 2rem;
 
