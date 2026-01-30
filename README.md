@@ -52,7 +52,8 @@ Built with simplicity and clarity in mind—no frameworks, just the fundamentals
 
 ```text
 arsenal-team-cards/
-│
+├── images
+   ├── UI.png 
 ├── index.html      # App structure
 ├── styles.css      # Styling and responsiveness
 ├── script.js       # Team data & interactivity
