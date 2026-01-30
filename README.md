@@ -1,16 +1,23 @@
 # ⚽ Arsenal Team Cards 🟥⬜
 
-An interactive **Football Team Cards** web app that showcases **Arsenal FC's squad** of 2026 using clean HTML, modern CSS, and vanilla JavaScript.  
-Users can filter players by position and explore team stats in a responsive, card-based layout.
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML5-orange?style=flat-square)
+![CSS](https://img.shields.io/badge/CSS3-blue?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square)
+
+An interactive **Football Team Cards** web application that displays **Arsenal FC’s squad** using clean HTML, modern CSS, and vanilla JavaScript.  
+Users can filter players by position and view team statistics in a responsive, card-based interface.
 
 ---
 
-## 🚀 Live Demo 🌍✨
+## 🚀 Live Demo 📡
 
-👉 **[Live Demo: ](https://karianjahi.github.io/arsenal-team-cards/)** 📡  
-Experience the project live via **GitHub Pages**!
+👉 **[Live Demo: ](https://karianjahi.github.io/arsenal-team-cards/)** 📡 🌍  
+Hosted on **GitHub Pages** — open it in your browser and start exploring instantly!
 
 ---
+
 
 ## 🧠 Project Overview
 
@@ -74,9 +81,25 @@ arsenal-team-cards/
 
 ---
 
-## 📸 Preview
+## 🖼️ Preview & Responsive Design
 
-> Team stats at the top, filters in the middle, and player cards rendered dynamically below.
+This application is built with a **mobile-first, responsive design** approach to ensure a smooth and consistent user experience across devices.  
+By combining **CSS Grid** and **Flexbox**, the layout adapts gracefully to different screen sizes without sacrificing readability or usability.
+
+### 💻 Desktop View
+![Desktop UI](images/UI-desktop.png)
+
+On larger screens, player cards are displayed in a **two-column grid**, allowing users to view more content at a glance while keeping the interface clean and balanced.
+
+### 📱 Mobile View
+![Mobile UI](images/UI-mobile.png)
+
+On smaller screens, the layout automatically adjusts by:
+- Switching to a **single-column card layout**
+- Stacking team statistics vertically
+- Reducing padding and spacing for **touch-friendly interaction**
+
+This ensures the app remains intuitive, accessible, and visually appealing on both desktop and mobile devices.
 
 ---
 
