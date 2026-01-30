@@ -1,6 +1,6 @@
 # ⚽ Arsenal Team Cards 🟥⬜
 
-An interactive **Football Team Cards** web app that showcases **Arsenal FC's squad** using clean HTML, modern CSS, and vanilla JavaScript.  
+An interactive **Football Team Cards** web app that showcases **Arsenal FC's squad** of 2026 using clean HTML, modern CSS, and vanilla JavaScript.  
 Users can filter players by position and explore team stats in a responsive, card-based layout.
 
 ---
